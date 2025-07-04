@@ -1,0 +1,107 @@
+.footer {
+    background-color: #5e4e1d;
+    color: #eae4e4;
+    padding: 3rem 2rem;
+    border-top: 1px solid #ddd;
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: auto;
+  
+    .newsletter {
+      text-align: center;
+      margin-bottom: 3rem;
+  
+      h4 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.2rem;
+      }
+  
+      h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+  
+      .newsletter-form {
+        margin-top: 1rem;
+  
+        input {
+          padding: 0.5rem 1rem;
+          width: 250px;
+          border: 1px solid #ccc;
+          border-right: none;
+          border-radius: 5px 0 0 5px;
+          outline: none;
+        }
+  
+        button {
+          padding: 0.5rem 1.2rem;
+          background: #000;
+          color: white;
+          border: none;
+          border-radius: 0 5px 5px 0;
+          cursor: pointer;
+        }
+      }
+  
+      p {
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
+      }
+  
+      .social-icons {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+  
+        i {
+          margin: 0 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-align: left;
+      gap: 2rem;
+  
+      .footer-section {
+        flex: 1 1 200px;
+  
+        h3 {
+          font-weight: bold;
+          margin-bottom: 1rem;
+          border-bottom: 2px solid #000;
+          display: inline-block;
+          padding-bottom: 0.2rem;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            margin: 0.5rem 0;
+          }
+        }
+  
+        p {
+          margin-bottom: 0.8rem;
+        }
+      }
+  
+      .about {
+        max-width: 300px;
+      }
+    }
+  
+    .footer-bottom {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      border-top: 1px solid #ccc;
+      padding-top: 1rem;
+    }
+  }
+  
